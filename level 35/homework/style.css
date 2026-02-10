@@ -1,0 +1,25 @@
+p {
+    color: rgb(125, 223, 255);
+    text-align: center;
+
+} 
+
+h1 {
+    color: pink;
+    text-align: center;
+
+}
+
+button {
+    color: blueviolet;
+
+}
+
+div {
+    background-color: lightgreen;
+    font-size: 50px;
+}
+
+#p1 b {
+    color: thistle;
+}

@@ -1,0 +1,61 @@
+<!-- 
+name:
+გამოიყენება form-ში თითოეული input-ის იდენტიფიკაციისთვის.
+როცა ფორმა ეგზავნება სერვერს, სწორედ name-ის საშუალებით იგება რა მონაცემი სად წავიდა.
+-->
+
+<!-- 
+value:
+ეს არის ის მნიშვნელობა, რომელიც გაიგზავნება სერვერზე.
+მაგ: radio ან select-ში ჩვენ ვხედავთ ტექსტს, მაგრამ სერვერი იღებს value-ს.
+-->
+
+<!-- 
+selected:
+გამოიყენება <option>-ში, რათა კონკრეტული ვარიანტი იყოს ნაგულისხმევად (default) მონიშნული.
+-->
+
+
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <title>Travel Booking</title>
+</head>
+<body>
+
+    <h1>✈ მოგზაურობის ბილეთების დაჯავშნა</h1>
+
+    <form>
+
+        <!-- მომხმარებლის სახელი -->
+        <label>თქვენი სახელი:</label><br>
+        <input type="text" name="username"><br><br>
+
+        <!-- ქვეყნების ჩამონათვალი -->
+        <label>აირჩიეთ ქვეყანა:</label><br>
+        <select name="country">
+            <option value="italy" selected>იტალია</option>
+            <option value="spain">ესპანეთი</option>
+            <option value="france">საფრანგეთი</option>
+            <option value="germany">გერმანია</option>
+        </select>
+        <br><br>
+
+        <!-- ბილეთის ტიპი -->
+        <label>ბილეთის ტიპი:</label><br>
+        
+        <input type="radio" name="ticket_type" value="economy" checked> ეკონომ<br>
+        <input type="radio" name="ticket_type" value="business"> ბიზნეს<br><br>
+
+        <!-- კომენტარი -->
+        <label>დამატებითი შეტყობინება:</label><br>
+        <textarea name="message" rows="4" cols="40"></textarea><br><br>
+
+        <!-- გაგზავნა -->
+        <button type="submit">დაჯავშნა</button>
+
+    </form>
+
+</body>
+</html>
