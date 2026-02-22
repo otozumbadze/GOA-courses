@@ -21,9 +21,10 @@ p{
 
 #main{
     color: rgb(0, 255, 89);
-    background-color: rgb(140, 0, 255);
+    background-color: rgb(72, 0, 255);
     display: flex;
     justify-content: center;
+    margin-left: 750px;
     position: relative;
-    left: 750px
+    bottom: 50px;
 }
