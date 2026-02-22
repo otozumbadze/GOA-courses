@@ -1,0 +1,19 @@
+p{
+    color:green;
+    background-color: pink;
+    text-align: center;
+}
+
+
+.a{
+    color: rgb(255, 2, 2);
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+
+#a{
+    color: #00fbff;
+    background-color:#ff008c;
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+h1{
+    width:400px;
+    font-size: 45px;
+}
+
+
+div{
+    display:flex;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+    bottom: 60px;
+    font-size: xx-large;
+}
+
+
+p{
+    font-size: 40px;
+}
+
+
+#main{
+    color: rgb(0, 255, 89);
+    background-color: rgb(140, 0, 255);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 750px
+}

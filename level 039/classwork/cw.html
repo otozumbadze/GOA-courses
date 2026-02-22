@@ -1,0 +1,61 @@
+<!--
+
+1) კომენტარების სახით ახსენით რა არის css priority, ჩამოთვალეთ დონეები და შესაბამისად რომელი რომელზე მაღალია.
+
+2) შექმენით 5 პარაგრაფი, რომელთაც გასტილავთ external css-ში tag selector-ის გასტილვის ხერხით, მთავარი დავალება კი იქნება პარაგრაფების გასტილვა ფერების ჩვეულებრივი დასახელებით. (color & background-color)
+
+3) შექმენით 5 h1, რომელთაც გასტილავთ external css-ში class selector-ის გასტილვის ხერხით, მთავარი დავალება კი იქნება პარაგრაფების გასტილვა rgb პალიტრის გამოყენებით. (color & background-color)
+
+4) შექმენით 5 h2, რომელთაც გასტილავთ external css-ში id selector-ის გასტილვის ხერხით, მთავარი დავალება კი იქნება პარაგრაფების გასტილვა hex კოდების გამოყენებით. (color & background-color)
+
+5) შექმენით 5 h2, რომელთაც გასტილავთ html-ში inline css-ის გასტილვის ხერხით, მთავარი დავალება კი იქნება პარაგრაფების გასტილვა თქვენთვის სასურველი ფერების მინიჭების ხერხების გამოყენებით. (color & background-color)
+
+-->
+
+
+
+
+<!-- როცა ჩვენ გვაქვს ერთი ელემენტი და ვსტილავთ ოთხნაირად მაგალითად class, id, თვითონ ელემენტით და inline css ით, ამ ოთხი გასტილვიდნ პირველი იმუშავებს inline css-სი, როცა inline css მოვაშორებთშემდგომ იმუშავებს id, შემდგომ კი class და ბოლოს თვითონ ელემენტი. -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <p>Hello world1</p>
+    <p>Hello world2</p>
+    <p>Hello world3</p>
+    <p>Hello world4</p>
+    <p>Hello world5</p>
+    
+
+    <h1 class="a">Game over1</h1>
+    <h1 class="a">Game over2</h1>
+    <h1 class="a">Game over3</h1>
+    <h1 class="a">Game over4</h1>
+    <h1 class="a">Game over5</h1>
+
+
+    <h2 id="a">Bigger1</h2>
+    <h2 id="a">Bigger2</h2>
+    <h2 id="a">Bigger3</h2>
+    <h2 id="a">Bigger4</h2>
+    <h2 id="a">Bigger5</h2>
+
+
+    <h2 style="color:cyan; background-color: blue; text-align: center;">Animal1</h2>
+    <h2 style="color:cyan; background-color: blue; text-align: center;">Animal2</h2>
+    <h2 style="color:cyan; background-color: blue; text-align: center;">Animal3</h2>
+    <h2 style="color:cyan; background-color: blue; text-align: center;">Animal4</h2>
+    <h2 style="color:cyan; background-color: blue; text-align: center;">Animal5</h2>
+
+
+</body>
+</html>
