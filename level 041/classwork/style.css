@@ -1,0 +1,52 @@
+#a{
+    color: rgb(128, 0, 255);
+    background-color: rgba(66, 247, 0, 0.71);
+    font-size: 35px;
+    text-align: center;
+    text-decoration: overline underline dashed rgba(0, 21, 255, 0.769);
+}
+
+
+#b{
+    color: rgb(225, 255, 0);
+    background-color: rgb(0, 221, 255);
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline dotted rgb(255, 0, 8);
+}
+
+
+#c{
+    color: rgb(238, 255, 0);
+    background-color: rgb(187, 0, 255);
+    font-size: 45px;
+    text-align: center;
+    text-decoration:line-through double rgb(0, 195, 255);
+}
+
+
+#d{
+    color: rgb(255, 0, 106);
+    background-color:rgb(81, 255, 0) ;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: overline underline dotted rgb(195, 0, 255);
+}
+
+
+#e{
+    color: rgb(29, 197, 194);
+    background-color: rgb(170, 40, 196);
+    font-size: 55px;
+    text-align: center;
+    text-decoration:line-through red double;
+}
+
+
+#f{
+    color: rgba(97, 0, 215, 0.746);
+    background-color: rgb(0, 255, 0);
+    font-size: 60px;
+    text-align: center;
+    text-decoration: line-through overline underline double rgb(0, 8, 255);
+}
