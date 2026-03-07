@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Rocker&family=Pirata+One&display=swap');
+
+
+h1{
+    text-align: center;
+    font-family:New Rocker;
+}
+
+
+
+h2{
+    text-align: center;
+    font-family:New Rocker;
+}
+
+
+
+div{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+
+
+p{
+    width: 900px;
+    font-size: 35px;
+}
