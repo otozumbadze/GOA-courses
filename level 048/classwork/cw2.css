@@ -1,0 +1,29 @@
+div{
+    width: 250px;
+    height: 150px;
+    border: 3px solid black;
+    background-color: rgb(255, 255, 255);
+    margin-left: 220px;
+    margin-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+}
+
+
+p{
+  border: 2px solid green;
+  width: 200px;
+  text-align: center;
+  background-color: lime;
+  margin-left: 20px;
+}
+
+
+h2{
+    border: 2px solid red;
+    background-color: yellow;
+    padding-top: 45px;
+    height: 80px;
+    text-align: center;
+}
