@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Black+Ops+One&family=Comic+Relief:wght@400;700&family=Lexend+Deca:wght@100..900&family=New+Rocker&family=Pirata+One&family=Saira+Stencil+One&family=Wallpoet&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Black+Ops+One&family=Comic+Relief:wght@400;700&family=Lexend+Deca:wght@100..900&family=New+Rocker&family=Pirata+One&family=Saira+Stencil+One&family=Wallpoet&display=swap');
+
+/* ეს არის პირველი დივის კოდი */
+
+*{
+    width: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color:hsl(0, 0%, 95%);
+    height: 100vh;
+}
+
+
+.orangediv{
+    width: 300px;
+    height: 500px;
+    background-color:hsl(31, 77%, 52%);
+
+}
+
+
+.lightgreendiv{
+    width: 300px;
+    height: 500px;
+    background-color:hsl(184, 100%, 22%) ;
+}
+
+
+.darkgreendiv{
+    width: 300px;
+    height: 500px;
+    background-color:hsl(179, 100%, 13%);
+
+}
+
+
+.maindiv{
+    display: flex;
+    flex-direction: row;
+    width: 1900px;
+    height: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#img1{
+    width: 60px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+#Paragraph1{
+    font-size: 40px;
+    color:hsl(0, 0%, 95%);
+    font-family: Big Shoulders;
+    margin-left: 50px;
+    font-weight: 500;
+}
+
+
+#Paragraph2{
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend Deca;
+    margin-left: 50px;
+    width: 200px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+
+#button1{
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    width: 150px;
+    height: 45px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 30px;
+    font-family: Lexend Deca;
+    color: hsl(31, 77%, 52%);
+    transition: all 0.6s;
+}
+
+
+#button1:hover{
+    background-color: hsl(31, 77%, 52%);
+    border: 3px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    transition: 0.6s;
+}
+
+
+/* ეს არის მეორე დივის კოდი */
+
+#img2{
+    width: 60px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+
+#Paragraph3{
+    font-size: 40px;
+    color:hsl(0, 0%, 95%);
+    font-family: Big Shoulders;
+    margin-left: 50px;
+    font-weight: 500;
+}
+
+
+#Paragraph4{
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend Deca;
+    margin-left: 50px;
+    width: 200px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+
+#button2{
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    width: 150px;
+    height: 45px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 30px;
+    font-family: Lexend Deca;
+    color: hsl(184, 100%, 22%);
+    transition: all 0.6s;
+}
+
+
+#button2:hover{
+    background-color: hsl(184, 100%, 22%);
+    border: 3px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    transition: 0.6s;
+}
+
+
+/* ეს არის მესამე დივის კოდი */
+
+#img3{
+    width: 60px;
+    height: 40px;
+    margin-left: 50px;
+    margin-top: 50px; 
+}
+
+
+#Paragraph5{
+    font-size: 40px;
+    color:hsl(0, 0%, 95%);
+    font-family: Big Shoulders;
+    margin-left: 50px;
+    font-weight: 500;
+}
+
+
+#Paragraph6{
+    font-size: 15px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: Lexend Deca;
+    margin-left: 50px;
+    width: 200px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+
+#button3{
+    border: none;
+    background-color: hsl(0, 0%, 95%);
+    width: 150px;
+    height: 45px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border-radius: 30px;
+    font-family: Lexend Deca;
+    color: hsl(179, 100%, 13%);
+    transition: all 0.6s;
+}
+
+
+#button3:hover{
+    background-color: hsl(179, 100%, 13%);
+    border: 3px solid hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    transition: 0.6s;
+}
