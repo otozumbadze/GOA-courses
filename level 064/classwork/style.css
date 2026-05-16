@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Black+Ops+One&family=Comic+Relief:wght@400;700&family=Figtree:ital,wght@0,300..900;1,300..900&family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=New+Rocker&family=Pirata+One&family=Wallpoet&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #121517;
+    height: 100vh;
+}
+
+
+#parent{
+    width: 1000px;
+    height: 800px;
+    height: 100vh;
+    display: grid;  
+}
+
+
+#main1{
+    grid-template-areas: 
+    "header header header"
+    "aside article article"
+    "footer footer footer"
+    ;
+    display: grid;
+    gap: 20px;
+    font-size: 40px;
+    font-family: Architects Daughter;
+    color: white;
+}
+
+
+#head{
+    display: flex;
+    display: grid;
+    grid-area: header;
+    border: 4px solid #56a1e8;
+    border-radius: 30px;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+#sidebar{
+    display: flex;
+    display: grid;
+    grid-area: aside;
+    border: 4px solid #56a1e8;
+    border-radius: 30px;
+    justify-content: center; 
+    align-items: center;
+    grid-template-columns: 50px;
+    grid-template-rows: 380px;
+}
+
+
+#article{
+    display: flex;
+    display: grid;
+    grid-area: article;
+    border: 4px solid #56a1e8;
+    border-radius: 30px;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+#footer{
+    display: flex;
+    display: grid;
+    grid-area: footer;
+    border: 4px solid #56a1e8;
+    border-radius: 30px;
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 150px;
+}
