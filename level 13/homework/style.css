@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Black+Ops+One&family=Chewy&family=Comic+Relief:wght@400;700&family=Commissioner:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=New+Rocker&family=Pirata+One&family=Wallpoet&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+}
+
+
+div{
+   display: flex;
+   align-items: center;
+   gap: 100px;
+   margin-top: 100px;
+}
+
+#porshe{
+    width: 900px;
+    font-size: 25px;
+    font-family: Commissioner;
+    font-weight: 600;
+}
+
