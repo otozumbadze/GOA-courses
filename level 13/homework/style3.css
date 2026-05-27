@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Black+Ops+One&family=Chango&family=Chewy&family=Comic+Relief:wght@400;700&family=Commissioner:wght@100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=New+Rocker&family=Pirata+One&family=Wallpoet&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Black+Ops+One&family=Chango&family=Chewy&family=Comic+Relief:wght@400;700&family=Commissioner:wght@100..900&family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Gravitas+One&family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=New+Rocker&family=Pirata+One&family=Wallpoet&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    background-image: url(./360_F_394999097_2jmYoQiRNHLQa8Bs6Stq02NyBUvcLKmE.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.div1{
+    font-size: 35px;
+    width: 600px;
+    height: 160px;
+    margin-left: 40px;
+    color: rgb(54, 165, 42);
+    font-family: Chango;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 70px;
+    margin-left: 13%;
+    font-size: 40px;
+    border: 4px solid black;
+    border-radius: 20px;
+    background-color: rgb(77, 255, 0);
+}
+
+
+a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-weight: 800; 
+}
+
+
+
+
+
+
+
