@@ -1,57 +1,186 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Black+Ops+One&family=Chango&family=Chewy&family=Comic+Relief:wght@400;700&family=Commissioner:wght@100..900&family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fira+Code:wght@300..700&family=Gravitas+One&family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=New+Rocker&family=Pirata+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Wallpoet&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Black+Ops+One&family=Chango&family=Chewy&family=Comic+Relief:wght@400;700&family=Commissioner:wght@100..900&family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Figtree:ital,wght@0,300..900;1,300..900&family=Fira+Code:wght@300..700&family=Gravitas+One&family=Kumbh+Sans:wght,YOPQ@100..900,300&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=New+Rocker&family=Pirata+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Wallpoet&display=swap');
-
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-body{
-    height: 100vh;
-}
-
-
-header{
-    margin-left: 30px;
-}
-
-
-.box{
+body {
+    margin: 0;
     display: flex;
-    justify-content: center;
-    margin-right: 70px;
-    gap: 30px;
-    position: relative;
-    top: -50px;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #ffffff;
+    font-family: sans-serif;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    width: 100%;
+    box-sizing: border-box;
+}
 
-a{
+main{
+    background-image: url(./4K_Tropical_Beach_Wallpaper___Crystal_Clear_Blue_Water__Island_Nature_Background_HD_1317x894.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 630px;
+    width: 1905px;
+}
+
+#id1 {
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: rgb(103, 102, 102);
+    margin: 0;
+}
+
+.cl1 {
+    display: flex;
+    gap: 30px;
+
+}
+.cl1 a {
+  font-size: 25px;
+  text-decoration: none;
+  color: lightslategrey;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
     font-size: 25px;
     text-decoration: none;
     color: lightslategrey;
-    font-family: Roboto;
-
+    font-family: 'Roboto', sans-serif;
 }
 
-
-h1{
-    font-size: 60px;
-    font-family: Montserrat;
-    font-weight: 500;
-    color: rgb(103, 102, 102);
-}
-
-
-.box1{
+.cl3 {
     display: flex;
     justify-content: center;
-    margin-left: 75%;
-    gap: 40px;
-    position: relative;
-    top: -80px;
+    align-items: center;
+    gap: 60px;
+    flex-grow: 1;
+    padding: 40px;
 }
+
+#id2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 550px;
+    width: 450px;
+}
+
+.p1{
+    margin-bottom: 180px;
+    font-weight: 600;
+    font-family: 'Roboto';
+}
+
+.cl3 h1 {
+    font-size: 85px;
+    margin: 0;
+    line-height: 1.1;
+}
+
+#id3 {
+    position: relative;
+    width: 450px;
+    height: 550px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 2px;
+}
+
+#id4 {
+    position: absolute;
+    bottom: -30px;
+    right: -50px;
+    background-color: rgb(228, 224, 224);
+    padding: 15px;
+    border-radius: 10px;
+    width: 180px;
+    border: dashed;
+}
+.cl2 a{
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;    
+  color: white;               
+  background-color: black;    
+  padding: 10px 25px;         
+  border-radius: 12px;        
+  border: none;  
+             
+}
+
+.Lined-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 14px;
+    color: #2c2c2c;
+    width: 100%;
+    max-width: 500px; 
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.Lined-text::before,
+.Lined-text::after {
+    content: '';
+    width: 80px;
+    border-bottom: 1px solid #2c2c2c;
+}
+
+.Lined-text::before { 
+    margin-right: 20px; 
+}
+.Lined-text::after { 
+     margin-left: 20px; 
+}
+
+.cl4{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 80px;
+    letter-spacing: 3px;
+    font-family: 'Roboto';
+    color: #778899;
+}
+
+.p3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 240px;
+    color: #778899;
+    letter-spacing: 3px;
+}
+
+.p4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin-top: 40px;
+    font-family: 'Roboto';
+}
+
+
+
+
+
 
