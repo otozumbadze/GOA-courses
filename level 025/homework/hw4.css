@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#cat1{
+    color: red;
+    font-size: 55px;
+}
+
+#cat2{
+    color: cyan;
+    font-size: 45px;
+}
+
+#cat3{
+    color: deeppink;
+    font-size: 35px;
+}
+#cat4{
+    color: lime;
+    font-size: 25px;
+}
+
+#cat5{
+    color: crimson;
+    font-size: 15px;
+}
+
+
+
+
